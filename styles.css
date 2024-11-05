@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(Images/IMG_3226.gif); /* Set your background image here */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent tiling */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 20;
+    padding: 20vw;
+}
+
+.sidebar {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left {
+    transform: translateX(-55px); /* Adjust for diagonal effect */
+}
+
+.right {
+    transform: translateX(45px); /* Adjust for diagonal effect */
+}
+
+.image-wrapper {
+    margin-bottom: 50px; /* Space between images */
+    width: 45%; /* Adjust to fit */
+}
+
+.left img, .right img {
+    width: 30vw;
+    height: 25vw;
+}
+
+.main-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.main-image img {
+    width: 100%; /* Adjust as needed */
+    max-width: 1200px; /* Adjust for larger screens */
+}
+
+* {
+    box-sizing: border-box;
+}
